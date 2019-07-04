@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">E:\workspace\C#\idk-core\obj\project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\xyz\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.3</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Access.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Access.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.Access.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.DB2.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.DB2.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.DB2.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Firebird.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Firebird.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.Firebird.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Informix.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Informix.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.Informix.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.MySql.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.MySql.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.MySql.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Oracle.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Oracle.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.Oracle.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.PostgreSQL.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.PostgreSQL.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.PostgreSQL.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SQLite.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SQLite.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.SQLite.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SapHana.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SapHana.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.SapHana.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SqlCe.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SqlCe.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.SqlCe.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SqlServer.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.SqlServer.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.SqlServer.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Sybase.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.Sybase.tt.txt')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.Sybase.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataAnnotations.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataModel.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\EditableObject.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Humanizer.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Access.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Access.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Access.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Access.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Access.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Access.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.DB2.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.DB2.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.DB2.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.DB2.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.DB2.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.DB2.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Firebird.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Firebird.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Informix.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Informix.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Informix.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Informix.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Informix.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Informix.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.MySql.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.Managed.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.Managed.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Oracle.Managed.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Oracle.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Oracle.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.x64.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.x64.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Oracle.x64.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.x86.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Oracle.x86.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Oracle.x86.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.PostgreSQL.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.PostgreSQL.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SQLite.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SapHana.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SapHana.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SapHana.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SapHana.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SapHana.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SapHana.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlCe.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlCe.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlCe.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlCe.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlCe.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlCe.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlServer.SqlTypes.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlServer.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SqlServer.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SqlServer.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Sybase.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Sybase.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Sybase.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Sybase.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Sybase.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Sybase.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\MultipleFiles.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyDataErrorInfo.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyPropertyChanged.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\ObsoleteAttributes.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\PluralizationService.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\README.md" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\README.md')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\README.md</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\T4Model.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude')">
+      <NuGetPackageId>linq2db.t4models</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Validation.ttinclude</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.MySql.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\CopyMe.MySql.tt.txt')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.MySql.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataAnnotations.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataModel.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\EditableObject.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Humanizer.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.MySql.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.MySql.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.MySql.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\MultipleFiles.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyDataErrorInfo.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyPropertyChanged.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\ObsoleteAttributes.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\PluralizationService.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\T4Model.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude')">
+      <NuGetPackageId>linq2db.MySql</NuGetPackageId>
+      <NuGetPackageVersion>2.6.4</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Validation.ttinclude</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\build\netcoreapp2.2\Microsoft.NETCore.App.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\build\netcoreapp2.2\Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)linq2db.t4models\2.6.4\build\linq2db.t4models.props" Condition="Exists('$(NuGetPackageRoot)linq2db.t4models\2.6.4\build\linq2db.t4models.props')" />
+    <Import Project="$(NuGetPackageRoot)linq2db.mysql\2.6.4\build\linq2db.MySql.props" Condition="Exists('$(NuGetPackageRoot)linq2db.mysql\2.6.4\build\linq2db.MySql.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkglinq2db_t4models Condition=" '$(Pkglinq2db_t4models)' == '' ">C:\Users\xyz\.nuget\packages\linq2db.t4models\2.6.4</Pkglinq2db_t4models>
+    <Pkglinq2db_MySql Condition=" '$(Pkglinq2db_MySql)' == '' ">C:\Users\xyz\.nuget\packages\linq2db.mysql\2.6.4</Pkglinq2db_MySql>
+  </PropertyGroup>
+</Project>

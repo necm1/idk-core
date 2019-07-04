@@ -1,0 +1,11 @@
+E:\workspace\C#\idk-core\bin\Debug\netcoreapp2.2\idk-core.deps.json
+E:\workspace\C#\idk-core\bin\Debug\netcoreapp2.2\idk-core.runtimeconfig.json
+E:\workspace\C#\idk-core\bin\Debug\netcoreapp2.2\idk-core.runtimeconfig.dev.json
+e:\workspace\C#\idk-core\bin\Debug\netcoreapp2.2\idk-core.dll
+e:\workspace\C#\idk-core\bin\Debug\netcoreapp2.2\idk-core.pdb
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.csprojAssemblyReference.cache
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.csproj.CoreCompileInputs.cache
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.AssemblyInfoInputs.cache
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.AssemblyInfo.cs
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.dll
+e:\workspace\C#\idk-core\obj\Debug\netcoreapp2.2\idk-core.pdb
